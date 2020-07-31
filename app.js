@@ -15,7 +15,7 @@ const weather = [
 
 
 
-const SpeechRecognition = window.webkitSpeechRecognition;
+const SpeechRecognition = window.WebkitSpeechRecognition;
 const recognition = new SpeechRecognition();
 
 recognition.onstart = function() {
